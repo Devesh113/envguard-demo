@@ -1,0 +1,19 @@
+{
+  "name": "envguard-demo",
+  "version": "1.0.0",
+  "description": "Demo project for @devesh321/envguard — environment variable validation for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "demo:error": "node error-demo.js",
+    "demo:esm": "node esm-demo.mjs"
+  },
+  "keywords": ["envguard", "env", "validation", "demo"],
+  "author": "Devesh113",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@devesh321/envguard": "^1.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
